@@ -318,3 +318,12 @@ Benefits:
 Delete created project after execution.
 
 This keeps test environments clean and reusable.
+
+# Assumptions
+
+1. Authentication token is available for API testing.
+2. BrowserStack account and devices are configured.
+3. Test users exist for company1 and company2.
+4. Test environment supports project creation and deletion.
+5. Tenant isolation is enforced using X-Tenant-ID header.
+6. Mobile testing is performed using BrowserStack real devices.
