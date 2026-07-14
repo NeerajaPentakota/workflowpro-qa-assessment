@@ -6,7 +6,7 @@ Author: Neeraja P
 
 This repository contains my solution for the WorkflowPro QA Automation Assessment.
 
-## Tools & Technologies
+## Technologies Used
 
 - Python
 - Pytest
@@ -17,21 +17,15 @@ This repository contains my solution for the WorkflowPro QA Automation Assessmen
 
 ## Assessment Sections
 
-### Part 1
-Flaky Test Analysis and Fixes
+1. Flaky Test Analysis
+2. Test Framework Design
+3. API + UI Integration Testing
 
-### Part 2
-Test Automation Framework Design
+## Project Structure
 
-### Part 3
-API + UI Integration Testing
-
-## Key Testing Areas Covered
-
-- UI Testing
-- API Testing
-- Cross Browser Testing
-- Mobile Testing
-- Multi-Tenant Validation
-- CI/CD Considerations
-- Test Data Management
+```text
+docs/
+tests/
+README.md
+requirements.txt
+```
